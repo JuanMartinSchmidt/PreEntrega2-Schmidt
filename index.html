@@ -9,14 +9,14 @@
     <title>Alfonsina - Diseño y personalizacion</title>
     <link rel="shortcut icon" href="./img/favicon.ico">
 </head>
-<body>
+<body> 
     <header>
         <nav class="navbar fixed-top bg-black">
             <ul class="container-fluid m-0 list-unstyled text-center">
                 <div class="row col-12">
                     <li class="col-lg-2"><a href="index.html" class="text-decoration-none text-light alkatra">Inicio</a></li>
                     <li class="col-lg-2"><a href="./page/productos.html" class="text-decoration-none text-light alkatra">Productos</a></li>
-                    <li class="col-lg-4"><input type="search" placeholder="  Buscar" class="rounded-5 alkatra"></li>
+                    <li class="col-lg-4"><input type="search" placeholder="  Buscar" class="rounded-5 alkatra input-group"></li>
                     <li class="col-lg-1"><a href="./page/ingresar.html" class="text-decoration-none text-light alkatra">Ingresar</a></li>
                     <li class="col-lg-3"><a href="./page/contacto.html" class="text-decoration-none text-light alkatra">Contactanos</a></li>
                 </div>
@@ -39,12 +39,13 @@
         </nav>
     </header>
     <main class="bgAmarillo">
+        
         <div class="titulos poppins">
             <h1><a href="index.html" id="alfonsina">ALFONSINA</a></h1>
             <h2 id="subtitulos">DISEÑO Y PERSONALIZACION</h2>
         </div>
            
-        <div class="divBotonDerecha col-lg-1 d-flex flex-column align-items-end row-gap-4">
+        <div class="divBotonDerecha col-lg-1 flex-column align-items-end row-gap-4">
                 <button class="btn btn-primary rounded-start-pill"><a href="./page/productos.html"><img src="./img/carrito.png" alt="Carrito"></a></button>
                 <button class="btn btn-primary rounded-start-pill"><a href="./page/contacto.html"><img src="./img/wap.png" alt="Contacto"></a></button>
                 <button class="btn btn-primary rounded-start-pill"><a href="./page/contacto.html"><img src="./img/question.png" alt="Sobre Nosotros"></a></button>
@@ -52,23 +53,25 @@
         
         <section class="container-fluid alkatra text-center">
             
-            <h3 class="fs-2 pt-5 pb-5 my-5">Un mundo donde crear</h3>
+            <div class="row justify-content-center">
+                <h3 class="fs-2 pt-5 pb-5 my-5 col-8">Un mundo donde crear</h3>
             
-            <article>
-                <h4>¿Quienes somos?</h4>
-                <p class="mb-5 mt-5">Somos la herramienta que da solución a tus diseños en productos personalizados. Te ayudamos a crear y plasmar tu diseño en miles de artículos para distinguir tu producto, materializar la identidad de tu empresa, o dar el regalo mas original.</p>
-            </article>
-            
-            <article>
-                <h4>¿Como funciona?</h4>
-                <p class="mb-5 mt-5">Seleccionas el producto. Cuando tu carrito este listo, ingresas la imagen que quieras plasmar en cada articulo.Realizas la compra y en cuestión de días tenes tus productos en tu casa. Si necesitas ayuda con tu diseño, contactanos por mail.</p>
-                <button class="btn btn-primary btn-lg"><a href="https://gmail.com" target="_blank"><img src="./img/envelope.svg" alt="Mail" height="50" width="75"></a></button>
-            </article>
+                <article class="col-8">
+                    <h4>¿Quienes somos?</h4>
+                    <p class="mb-5 mt-5">Somos la herramienta que da solución a tus diseños en productos personalizados. Te ayudamos a crear y plasmar tu diseño en miles de artículos para distinguir tu producto, materializar la identidad de tu empresa, o dar el regalo mas original.</p>
+                </article>
+                
+                <article class="col-8">
+                    <h4>¿Como funciona?</h4>
+                    <p class="mb-5 mt-5">Seleccionas el producto. Cuando tu carrito este listo, ingresas la imagen que quieras plasmar en cada articulo.Realizas la compra y en cuestión de días tenes tus productos en tu casa. Si necesitas ayuda con tu diseño, contactanos por mail.</p>
+                    <button class="btn btn-primary btn-lg"><a href="https://gmail.com" target="_blank"><img src="./img/envelope.svg" alt="Mail" height="50" width="75"></a></button>
+                </article>
+            </div>
         </section>
 
         <h5 class="nunito fs-3 fw-bold pt-5 pb-2 p-4">PRODUCTOS DESTACADOS</h5>
         
-        <section class="d-flex flex-row flex-wrap justify-content-evenly pb-5">
+        <section class="d-flex flex-row flex-wrap justify-content-evenly pb-5 row-gap-4">
             
             <div class="d-flex flex-column justify-content-evenly align-items-center py-4 px-5 bg-light nunito text-center fw-bold rounded-3 bordeGris">
                 <a href="./page/remera.html" class="text-black text-decoration-none mb-2 fs-5">Remera</a>
