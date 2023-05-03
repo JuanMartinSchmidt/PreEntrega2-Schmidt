@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62,5%;
+}
+@font-face {
+    font-family: 'alkatra';
+    src: url(../font/alkatra.ttf);
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/poppins.ttf);
+}
+
+@font-face {
+    font-family: 'nunito';
+    src: url(../font/nunito.ttf);
+}
+   
+    /*Media 992px*/
+@media screen and (min-width: 992px) {
+.navResponsive{
+    display: none;
+}
+}
+
+@media screen and (max-width: 992px){
+    
+    /*Navegador*/
+header nav div{
+    padding-bottom: 0rem;
+}
+header nav ul div li{
+    display: none;
+}
+.alfonsinaNavegador{
+    color: #FDFFB6; 
+    font-family: 'poppins';
+    font-size: 2rem;   
+}
+.inputResponsive{
+    border-radius: 3rem;
+    outline: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'alkatra';
+}
+.btn-secondary{
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+    /*Index*/
+main .divBotonDerecha{
+    display: none;
+}
+main div #alfonsina{
+    font-size: 5rem;
+}    
+main div div h2 #subtitulos{
+    font-size: 25px;
+    padding: 2rem;
+}
+   
+    /*Productos*/
+main .tituloPaginas{
+    font-size: 4rem;
+    padding-left: 5rem;
+}
+    /*Ingresar*/
+section div form input{
+    width: 12rem;
+}
+section div aside h3{
+    margin-top: 3rem;
+}
+}
+    
+    /*Media 576px*/
+@media screen and (max-width: 576px){
+
+.alfonsinaNavegador{
+    font-size: 1rem;
+}
+
+    /*Index*/
+main div #alfonsina{
+    font-size: 3rem;
+    margin-top: 5rem;
+}    
+main div #subtitulos{
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+    /*Productos*/
+main .tituloPaginas{
+    font-size: 3rem;
+    padding-left: 1rem;
+}
+}
+
+    /*Tamaño desktop*/
+
+    /*--Navegador--*/
+header nav ul li a:hover{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 7px;
+    background-color: #BDB2FF;
+}
+header nav ul li input{
+    outline: none;
+}
+
+    /*--General--*/
+.alkatra{
+    font-family: 'alkatra';
+}
+.nunito{
+    font-family: 'nunito';
+}
+.poppins{
+    font-family: 'poppins';
+}
+.bgAmarillo{
+    background-color: #FDFFB6;
+}
+.btn-primary{
+    background-color: #BDB2FF;
+    border: none;
+    --bs-btn-hover-bg: #FFC6FF;
+}
+.btn-secondary{
+    background-color: #BDB2FF;
+    --bs-btn-bg:  #BDB2FF;
+    --bs-btn-active-bg:  #BDB2FF;
+    --bs-btn-hover-bg:  #BDB2FF;
+    border-color: #BDB2FF;
+    --bs-btn-hover-border-color: white;
+}
+.btn-outline-primary{
+    --bs-btn-color: black;  
+    --bs-btn-active-bg: #BDB2FF; 
+    --bs-btn-border-color: transparent; 
+    --bs-btn-active-border-color: transparent; 
+}
+.titulos{
+    color: #FDFFB6;
+    background-image: url(../img/imagen1.jpg);
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.tituloPaginas{
+    font-size: 5rem;
+    padding: 12rem 0rem 6rem 5rem;
+}
+.divBotonDerecha{
+    display: flex;
+    position: fixed;
+    top: 7rem;
+    right: 0rem;
+}
+.bordeGris{
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: lightgray;
+}
+footer{
+    background-image: url(../img/imagenfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+    /*--Index--*/
+#alfonsina{
+    display: block;
+    font-size: 6rem;
+    color: #FDFFB6;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 9rem;
+}
+#subtitulos{
+    font-family: 'alkatra';
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+
+    /*--Pagina Productos--*/
+.tarjetaProductos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "img dl"
+    "button1 button2";
+    width: 30rem; 
+}
+section div img{
+    display: grid;
+    grid-area: img;
+    justify-self: center;
+    align-self: center;
+}
+section div dl{
+    display: grid;
+    grid-area: dl;
+    padding: 1rem 1rem 0rem 1rem;
+    margin: 0%;
+    justify-items: center;
+}
+section div input{
+    border-color: #BDB2FF;
+    border-radius: 7px;
+    width: 4rem;
+}
+.buttonResultado{
+    display: grid;
+    grid-area: button1;
+}
+.buttonAgregar{
+    display: grid;
+    grid-area: button2;
+}

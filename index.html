@@ -13,6 +13,7 @@
     <header>
         <nav class="navbar fixed-top bg-black">
             <ul class="container-fluid m-0 list-unstyled text-center">
+                <!-- Barra de navegacion +992px -->
                 <div class="row col-12">
                     <li class="col-lg-2"><a href="index.html" class="text-decoration-none text-light alkatra">Inicio</a></li>
                     <li class="col-lg-2"><a href="./page/productos.html" class="text-decoration-none text-light alkatra">Productos</a></li>
@@ -20,7 +21,8 @@
                     <li class="col-lg-1"><a href="./page/ingresar.html" class="text-decoration-none text-light alkatra">Ingresar</a></li>
                     <li class="col-lg-3"><a href="./page/contacto.html" class="text-decoration-none text-light alkatra">Contactanos</a></li>
                 </div>
-            <!--Barra de navegacion responsive-->
+                
+                <!--Barra de navegacion -992px -->
                 <div class="container-fluid navResponsive">
                     <div class="row">
                         <a class="col-5 alfonsinaNavegador text-decoration-none align-self-center" href="index.html">ALFONSINA</a>
@@ -40,39 +42,55 @@
     </header>
     <main class="bgAmarillo">
         
+        <!-- Titulos -->
         <div class="titulos poppins">
             <h1><a href="index.html" id="alfonsina">ALFONSINA</a></h1>
             <h2 id="subtitulos">DISEÑO Y PERSONALIZACION</h2>
         </div>
-           
+        
+        <!-- Botones a la derecha -->
         <div class="divBotonDerecha col-lg-1 flex-column align-items-end row-gap-4">
                 <button class="btn btn-primary rounded-start-pill"><a href="./page/productos.html"><img src="./img/carrito.png" alt="Carrito"></a></button>
                 <button class="btn btn-primary rounded-start-pill"><a href="./page/contacto.html"><img src="./img/wap.png" alt="Contacto"></a></button>
                 <button class="btn btn-primary rounded-start-pill"><a href="./page/contacto.html"><img src="./img/question.png" alt="Sobre Nosotros"></a></button>
         </div> 
         
+        <!-- Contenido -->
         <section class="container-fluid alkatra text-center">
             
             <div class="row justify-content-center">
                 <h3 class="fs-2 pt-5 pb-5 my-5 col-8">Un mundo donde crear</h3>
             
-                <article class="col-8">
+                <article class="col-8 mb-5">
                     <h4>¿Quienes somos?</h4>
-                    <p class="mb-5 mt-5">Somos la herramienta que da solución a tus diseños en productos personalizados. Te ayudamos a crear y plasmar tu diseño en miles de artículos para distinguir tu producto, materializar la identidad de tu empresa, o dar el regalo mas original.</p>
+                    <p class="mt-5">Ya sea que esté buscando promocionar su marca con artículos personalizados, mejorar el reconocimiento de su empresa o simplemente sorprender a sus clientes y empleados con regalos personalizados, estamos aquí para ayudarle.</p> 
+                    <p>Contamos con una amplia gama de productos de alta calidad que pueden ser personalizados según sus preferencias.</p>
+                    <p>Desde lapiceras, tazas y llaveros hasta llaveros, portafolios y USBs, ofrecemos una amplia selección de artículos que se pueden adaptar con su logotipo, eslogan o cualquier otro diseño que desee..</p>
                 </article>
                 
-                <article class="col-8">
+                <article class="col-8 mt-5">
                     <h4>¿Como funciona?</h4>
-                    <p class="mb-5 mt-5">Seleccionas el producto. Cuando tu carrito este listo, ingresas la imagen que quieras plasmar en cada articulo.Realizas la compra y en cuestión de días tenes tus productos en tu casa. Si necesitas ayuda con tu diseño, contactanos por mail.</p>
-                    <button class="btn btn-primary btn-lg"><a href="https://gmail.com" target="_blank"><img src="./img/envelope.svg" alt="Mail" height="50" width="75"></a></button>
+                    <p class="mt-5">¡Hacer un pedido en nuestra página de productos personalizados es rápido y sencillo!</p>
+                    <p>Explora nuestro catálogo y encuentra el producto que deseas personalizar.</p>
+                    <p>Selecciona las opciones de tamaño, color y material disponibles.</p>
+                    <p>Personaliza tu producto añadiendo tu diseño, logotipo o texto utilizando nuestras herramientas de personalización.</p>
+                    <p>Revisa cuidadosamente todos los detalles y verifica que el diseño y las opciones seleccionadas sean correctas.</p>
+                    <p>Añade el producto al carrito de compra y continúa con el proceso de pago.</p>
+                    <p>Proporciona la información de envío y facturación requerida.</p>
+                    <p>Selecciona el método de pago y confirma tu pedido.</p>
+                    <p>Una vez completado el pedido, recibirás una confirmación por correo electrónico con los detalles de tu compra. Nuestro equipo comenzará a trabajar en tu pedido y te mantendremos informado sobre su progreso. Cuando el paquete sea enviado, recibirás un número de seguimiento para que puedas rastrear su entrega.</p>
+                    <p class="mb-5">Si tienes alguna pregunta o necesitas asistencia durante el proceso de pedido, nuestro equipo de atención al cliente estará encantado de ayudarte. ¡Esperamos con ansias personalizar tus productos y asegurarnos de que tengas una experiencia de compra satisfactoria!</p>
+                    <button class="btn btn-primary btn-lg mb-5"><a href="https://gmail.com" target="_blank"><img src="./img/envelope.svg" alt="Mail" height="50" width="75"></a></button>
                 </article>
             </div>
         </section>
 
-        <h5 class="nunito fs-3 fw-bold pt-5 pb-2 p-4">PRODUCTOS DESTACADOS</h5>
+        <!-- Productos destacados -->
+        <h5 class="nunito fs-3 fw-bold pt-5 pb-2 p-4 m-5">PRODUCTOS DESTACADOS</h5>
         
         <section class="d-flex flex-row flex-wrap justify-content-evenly pb-5 row-gap-4">
             
+            <!-- Tarjeta -->
             <div class="d-flex flex-column justify-content-evenly align-items-center py-4 px-5 bg-light nunito text-center fw-bold rounded-3 bordeGris">
                 <a href="./page/remera.html" class="text-black text-decoration-none mb-2 fs-5">Remera</a>
                 <img src="./img/remera.jpg" alt="Remera sublimable">
@@ -82,7 +100,8 @@
                 </dl>
                 <button class="btn btn-primary btn-sm mt-4 alkatra"><a href="./page/remera.html" class="text-black text-decoration-none">Comprar</a></button>
             </div>
-                
+
+            <!-- Tarjeta -->            
             <div class="d-flex flex-column justify-content-evenly align-items-center py-4 px-5 bg-light nunito text-center fw-bold rounded-3 bordeGris">
                 <a href="./page/remera.html" class="text-black text-decoration-none mb-2 fs-5">Gorra</a>
                 <img src="./img/gorra.jpg" alt="Gorra sublimable">
@@ -92,7 +111,8 @@
                 </dl>
                 <button class="btn btn-primary btn-sm mt-4 alkatra"><a href="./page/remera.html" class="text-black text-decoration-none">Comprar</a></button>
             </div>
-                
+
+            <!-- Tarjeta -->            
             <div class="d-flex flex-column justify-content-evenly align-items-center py-4 px-5 bg-light nunito text-center fw-bold rounded-3 bordeGris">
                 <a href="./page/remera.html" class="text-black text-decoration-none mb-2 fs-5">Taza</a>
                 <img src="./img/taza.jpg" alt="Taza sublimable">
@@ -101,7 +121,8 @@
                 </dl>
                 <button class="btn btn-primary btn-sm mt-4 alkatra"><a href="./page/remera.html" class="text-black text-decoration-none">Comprar</a></button>
             </div>
-                
+
+            <!-- Tarjeta -->           
             <div class="d-flex flex-column justify-content-evenly align-items-center py-4 px-5 bg-light nunito text-center fw-bold rounded-3 bordeGris">
                 <a href="./page/remera.html" class="text-black text-decoration-none mb-2 fs-5">Mate</a>
                 <img src="./img/mate.jpg" alt="Mate sublimable">
@@ -110,7 +131,8 @@
                 </dl>
                 <button class="btn btn-primary btn-sm mt-4 alkatra"><a href="./page/remera.html" class="text-black text-decoration-none">Comprar</a></button>
             </div>
-                
+
+            <!-- Tarjeta -->           
             <div class="d-flex flex-column justify-content-evenly align-items-center py-4 px-5 bg-light nunito text-center fw-bold rounded-3 bordeGris">
                 <a href="./page/remera.html" class="text-black text-decoration-none mb-2 fs-5">Buzo</a>
                 <img src="./img/buzo.jpg" alt="Buzo sublimable">
@@ -124,9 +146,8 @@
     </main>
 
     <footer class="container-fluid alkatra p-5">
-        
         <div class="row justify-content-evenly align-items-center">
-            
+            <!-- Redes -->
             <div class="col-lg-4 col-5 bgAmarillo pt-3 rounded-4">
                 <h5 class="text-center fs-3">SEGUINOS</h5>
                 <div class="d-flex flex-row justify-content-evenly m-2 p-5">
@@ -135,11 +156,9 @@
                     <a href="https://twitter.com" target="_blank"><img src="./img/twitter.png" alt="Twitter"></a>
                 </div>
             </div>
-        
+            <!-- Mapa -->
             <iframe class="col-lg-4 col-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50673.34340128342!2d-61.95491476366218!3d-37.45873945024496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eb72d8e8d8050f%3A0x7662e3714a79bafb!2sCoronel%20Suarez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1680581056690!5m2!1ses!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
         </div>
-        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
